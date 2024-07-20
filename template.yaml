@@ -39,6 +39,11 @@ Resources:
     Properties:
       Name: ClassApi
       StageName: Prod
+  ClassApi:
+    Type: AWS::Serverless::Api
+    Properties:
+      Name: ClassApi2
+      StageName: Prod
 
   GetDataClassByIdFunction:
     Type: AWS::Serverless::Function
